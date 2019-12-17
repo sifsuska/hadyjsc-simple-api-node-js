@@ -1,2 +1,3 @@
-## Smart Integrated for Management of Electricity
+## Simple API From Hady Eka Saputra
+### SIF 2013 
 

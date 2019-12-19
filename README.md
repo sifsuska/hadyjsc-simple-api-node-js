@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.java-sc.com/">
-    <img src="https://1.bp.blogspot.com/-qlH7GyLvZOs/XX0LSgsv7fI/AAAAAAAAIE4/Md8Bhpbu43wn3wxah9ZC08F40PFYU9JlwCK4BGAYYCw/s1600/PNG.png" alt="Logo" width="100%" height="72px">
+    <img src="https://1.bp.blogspot.com/-qlH7GyLvZOs/XX0LSgsv7fI/AAAAAAAAIE4/Md8Bhpbu43wn3wxah9ZC08F40PFYU9JlwCK4BGAYYCw/s1600/PNG.png" alt="Logo" width="184" height="68px">
   </a>
 
   <h3 align="center">OS JSC-API</h3>

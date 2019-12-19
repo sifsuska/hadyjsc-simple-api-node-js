@@ -24,13 +24,13 @@ class Controller {
         const mailOptionsNotifier = {
           to: email,
           subject: `Welcome to ${process.env.SYSTEM_TITLE}`,
-          html: `<p>You have been registered to be a user of the institution</p><p>Details:
+          html: `<p>You have been registered to be a user of the system</p><p>Details:
                 <br /><span>Email: ${email}</span><br /><span>Username: ${username}</span>
                 <br /><span>Password: ${passwordVar}</span></p>
                 <p>Please verify your email address so we know that it's really you! 
                 <br> 
                 <a href="${process.env.API_DEPLOY}/register/verify/email/${email}/token/${newUser.verification_token}" style="background-color: #008CBA;border: none;border-radius:8px;color: white;padding: 12px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;">Verify my email address</a></p>
-                <p>Please do not reply this email as it is automatically generated from our system.</p><p>Powered by E-life Solutions.</p>`
+                <p>Please do not reply this email as it is automatically generated from our system.</p><p><a href="https://www.java-sc.com">Powered by JSC Dev.</a></p>`
         };
         mailer(mailOptionsNotifier);
         res.status(201).json({ message: 'Thank you for signing up, you must verify your email address.', newUser });
